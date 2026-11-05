@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Saniya VS | Portfolio</title>
+  <meta name="description" content="Portfolio of Saniya VS, B.Tech Computer Science student working in Python, machine learning, computer vision and full-stack web development.">
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <nav class="pill" aria-label="Main">
+    <a href="#home" class="name">Saniya VS</a>
+    <a href="#about">About</a>
+    <a href="#highlights">Highlights</a>
+    <a href="#work">Work</a>
+    <a href="#experience">Experience</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Get in touch</a>
+  </nav>
+
+  <main id="main">
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <h1> I'm Saniya, an aspiring software developer blending creativity and technology to turn ideas into meaningful digital experiences.</h1>
+      <p class="sub">Python. Machine learning. Full-stack web. Kerala based.</p>
+      <figure class="portrait">
+        <img src="./profile.jpg" alt="Portrait of Saniya VS" onerror="this.parentElement.classList.add('nophoto');this.remove()">
+      </figure>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section center">
+      <h2>I build practical software, from sign language recognition to expense tracking.</h2>
+      <p class="lede">I'm a B.Tech Computer Science student with experience in Python, machine learning, computer vision and full-stack web development. Through an ML internship I've worked hands-on with data preprocessing and feature engineering, and I enjoy turning ideas into solutions people can actually use.</p>
+      <dl class="facts">
+        <div><dt>Studying</dt><dd>B.Tech in Computer Science and Engineering, SCMS School of Engineering and Technology, Ernakulam (2023 to 2027)</dd></div>
+        <div><dt>CGPA</dt><dd>8.2 / 10</dd></div>
+        <div><dt>Based in</dt><dd>Kerala, India</dd></div>
+      </dl>
+    </section>
+
+    <!-- HIGHLIGHTS -->
+    <section id="highlights" class="section wide">
+      <div class="hl">
+        <article class="big">
+          <svg class="ic" viewBox="0 0 24 24"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"/></svg>
+          <h3>Grace Hopper Celebration India 2025</h3>
+          <p>Selected attendee at India's largest conference for women in computing.</p>
+        </article>
+        <article>
+          <svg class="ic" viewBox="0 0 24 24"><path d="M8 4h8v5a4 4 0 0 1-8 0zM8 6H4v1a4 4 0 0 0 4 4M16 6h4v1a4 4 0 0 1-4 4M12 13v4M8 21h8M10 17h4"/></svg>
+          <h3>ThinkerHub Hackathon</h3>
+          <p>Ranked Top 5 among competing teams.</p>
+        </article>
+        <article>
+          <svg class="ic" viewBox="0 0 24 24"><circle cx="12" cy="9" r="5"/><path d="M9 14l-2 7 5-3 5 3-2-7"/></svg>
+          <h3>Python Programming Certificate</h3>
+          <p>LCC Computer Education.</p>
+        </article>
+        <article>
+          <svg class="ic" viewBox="0 0 24 24"><path d="M2 9l10-5 10 5-10 5z"/><path d="M6 11v5c3 2 9 2 12 0v-5"/></svg>
+          <h3>8.2 / 10 CGPA</h3>
+          <p>B.Tech CSE, SCMS School of Engineering and Technology.</p>
+        </article>
+        <article>
+          <svg class="ic" viewBox="0 0 24 24"><rect x="7" y="7" width="10" height="10" rx="1"/><path d="M10 3v4M14 3v4M10 17v4M14 17v4M3 10h4M3 14h4M17 10h4M17 14h4"/></svg>
+          <h3>Machine Learning Intern</h3>
+          <p>Cleaned 10,000+ samples and lifted model accuracy by 8 to 10%.</p>
+          <a class="see" href="#experience">See more <span>↗</span></a>
+        </article>
+        <article>
+          <svg class="ic" viewBox="0 0 24 24"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5"/></svg>
+          <h3>Web Development Trainee</h3>
+          <p>Completed an 8-week program from HTML5 to Node.js and MySQL.</p>
+          <a class="see" href="#experience">See more <span>↗</span></a>
+        </article>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section id="work" class="section">
+      <h2 class="center">Selected work</h2>
+      <div class="filters" role="group" aria-label="Filter projects">
+        <button class="chip on" data-filter="all" type="button">All</button>
+        <button class="chip" data-filter="ml" type="button">Python and ML</button>
+        <button class="chip" data-filter="web" type="button">Web</button>
+      </div>
+      <div class="cards">
+        <article class="card" data-cat="ml">
+          <h3>Sign Sync</h3>
+          <p class="role">Sign language to text converter</p>
+          <ul class="points">
+            <li>Real-time system that recognizes sign language gestures and converts them to text, improving accessibility for hearing-impaired users.</li>
+            <li>Built with Python, OpenCV, MediaPipe and TensorFlow, with a web interface in HTML, CSS and JavaScript.</li>
+          </ul>
+          <ul class="tags"><li>Python</li><li>OpenCV</li><li>MediaPipe</li><li>TensorFlow</li></ul>
+        </article>
+        <article class="card" data-cat="web">
+          <h3>Split Smart</h3>
+          <p class="role">Shared expense tracker</p>
+          <ul class="points">
+            <li>Full-stack expense tracking app with real-time balance calculations for multiple users.</li>
+            <li>Responsive frontend and a scalable PHP and MySQL backend with a normalized database schema.</li>
+            <li>5+ REST API endpoints for CRUD operations on expenses and user groups.</li>
+          </ul>
+          <ul class="tags"><li>PHP</li><li>MySQL</li><li>JavaScript</li><li>REST APIs</li></ul>
+        </article>
+        <article class="card" data-cat="ml">
+          <h3>Code Verify</h3>
+          <p class="role">Code quality and plagiarism detection tool</p>
+          <ul class="points">
+            <li>Compares two code files using structure (functions, loops, conditionals), variable names and patterns, and sequence of operations.</li>
+            <li>Tested on 30 to 50 Python files, correctly identifying 90 to 95% of plagiarized code with few false positives.</li>
+            <li>Supports Python, Java and C++ files.</li>
+          </ul>
+          <ul class="tags"><li>Python</li><li>Streamlit</li></ul>
+        </article>
+        <article class="card" data-cat="ml">
+          <h3>SmartSOS</h3>
+          <p class="role">B.Tech main project, team of four</p>
+          <ul class="points">
+            <li>Smartphone sensor-based automatic accident detection and emergency response system.</li>
+            <li>Phase 1 report completed in October 2026.</li>
+          </ul>
+          <ul class="tags"><li>Machine learning</li><li>Mobile sensors</li></ul>
+        </article>
+        <article class="card" data-cat="web">
+          <h3>This portfolio</h3>
+          <p class="role">Interactive personal website</p>
+          <ul class="points">
+            <li>Built with Flexbox, CSS Grid, CSS animations and a validated contact form, without frameworks.</li>
+          </ul>
+          <ul class="tags"><li>CSS Grid</li><li>Flexbox</li><li>JavaScript</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+      <h2 class="center">Experience</h2>
+      <div class="exp">
+        <article>
+          <div class="when"><h3>Machine Learning Intern</h3><p>RP2, Kochi</p><p>Jun 15 to Jul 15, 2026</p></div>
+          <ul class="points">
+            <li>Built a Python data preprocessing pipeline that cleaned 10,000+ dataset samples, removing duplicates and handling missing values to prepare for model training.</li>
+            <li>Created 5 to 8 new features through exploratory data analysis (visualization, correlation analysis), improving model accuracy by 8 to 10%.</li>
+          </ul>
+        </article>
+        <article>
+          <div class="when"><h3>Web Development Trainee</h3><p>Smart Ed</p><p>2026</p></div>
+          <ul class="points">
+            <li>Completed an 8-week web development program covering HTML5, CSS3, JavaScript, React, Node.js, Express and MySQL.</li>
+            <li>Implemented responsive layouts for mobile (320px), tablet (768px) and desktop (1024px+) with a focus on usability and clean design.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section wide">
+      <h2 class="center">Skills</h2>
+      <div class="skills">
+        <div><h3>Languages</h3><ul><li>Python</li><li>Java</li><li>C</li><li>JavaScript</li><li>PHP</li><li>SQL</li></ul></div>
+        <div><h3>Web and databases</h3><ul><li>HTML5, CSS3</li><li>React</li><li>Node.js, Express</li><li>REST APIs</li><li>MySQL</li></ul></div>
+        <div><h3>Libraries and frameworks</h3><ul><li>TensorFlow</li><li>OpenCV, MediaPipe</li><li>NumPy, Pandas</li><li>Streamlit</li><li>pdf.js, pdf-lib</li></ul></div>
+        <div><h3>Developer tools</h3><ul><li>Git and GitHub</li><li>VS Code</li><li>Jupyter Notebook</li></ul></div>
+        <div><h3>Core concepts</h3><ul><li>OOP</li><li>Data structures and algorithms</li><li>Agile</li><li>TCP/IP</li></ul></div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <div class="socials">
+        <a href="https://github.com/saniyavs" aria-label="GitHub"><svg viewBox="0 0 24 24"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56v-2c-3.2.7-3.87-1.37-3.87-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.69 1.25 3.35.96.1-.74.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.78 0c2.2-1.49 3.17-1.18 3.17-1.18.62 1.59.23 2.76.11 3.05.74.81 1.18 1.83 1.18 3.09 0 4.42-2.7 5.4-5.27 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/></svg></a>
+        <a href="https://linkedin.com/in/saniyavs" aria-label="LinkedIn"><span>in</span></a>
+        <a href="mailto:saniyavs402@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24" class="stroke"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></a>
+      </div>
+      <h2>Want to work together?<br>Drop me a line</h2>
+      <a class="dl" href="saniya_resume.pdf" download>Get resume <span>↓</span></a>
+      <form id="form" novalidate>
+        <div class="row">
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Enter your name" autocomplete="name" required>
+            <small class="err" data-for="name"></small>
+          </div>
+          <div class="field">
+            <label for="email">Email Address</label>
+            <input id="email" name="email" type="email" placeholder="Enter your email" autocomplete="email" required>
+            <small class="err" data-for="email"></small>
+          </div>
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
+          <small class="err" data-for="message"></small>
+        </div>
+        <button class="submit" type="submit">Submit</button>
+        <p id="result" role="status"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="foot">Saniya VS · B.Tech CSE, SCMS School of Engineering and Technology</footer>
+  <script src="script.js"></script>
+</body>
+</html>
